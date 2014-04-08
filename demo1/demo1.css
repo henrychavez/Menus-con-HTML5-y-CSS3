@@ -1,0 +1,49 @@
+nav{	
+	width: 500px;
+	padding: 0;
+	margin: 20px auto;
+	border-top: 1px solid #02bf77;
+}
+.demo1{
+	list-style: none;
+	margin: 0;
+}
+.demo1 li{
+	float: left;
+	padding: 0;
+	line-height: 1;
+	text-align: center;
+}
+/*Opcion 1*/
+/*.demo1 li a{
+	padding: 10px 15px;
+	display: block;
+	height: 40px;
+	border-bottom: 0px solid #02BF77;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+.demo1 li a:hover, .demo1 li.activo a{
+	border-bottom-width: 4px;
+	color: #02BF77;
+}*/
+
+/* Opcion 2 */
+
+.demo1 li a{
+	padding: 10px 15px;
+	display: block;		
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+.demo1 li a:hover, .demo1 li.activo a{
+	-webkit-box-shadow: 0px -4px 0px #02bf77 inset;
+	        box-shadow: 0px -4px 0px #02bf77 inset;
+	color: #02BF77;
+}
