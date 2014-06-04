@@ -7,3 +7,8 @@ Demo 1
 ------
 
 Menu estilo minimalista, simple
+
+Demo 2
+------
+
+Menu Dropdown Responsive, con un estilo FLAT, basado en bootstrap 3.1 se adapta a distintas resoluciones y funciona correctamente en dispositivos táctiles.
